@@ -21,23 +21,21 @@ export PKG=(
   lighttpd
   lolcat
   # lxappearance #
-  mariadb
+  # mariadb
   # mupdf #
   neofetch
   numlockx
-  octave
   odt2txt
   playerctl
   pulseaudio
   pulseaudio-bluetooth
   pv
-  ranger
+  # ranger
   rclone
   redshift
-  rofi
+  # rofi
   shfmt
   # terminology #
-  telegram-desktop
   # texstudio #
   tldr
   tree
