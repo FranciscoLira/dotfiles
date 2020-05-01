@@ -9,6 +9,16 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# The following lines were added by compinstall
+
+zstyle ':completion:*' completer _complete _ignored
+zstyle :compinstall filename '/home/franciscolira/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export DOTFILES="$HOME/.dotfiles"
@@ -26,7 +36,13 @@ source $DOTFILES/system/fzf.init
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="ys"
+
+#This one works out of the box 
+#ZSH_THEME="ys"
+#This one is a cool one
+ZSH_THEME="geometry"
+#To use in classes
+#ZSH_THEME="philips"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load

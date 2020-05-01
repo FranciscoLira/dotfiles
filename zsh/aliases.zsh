@@ -1,6 +1,7 @@
 # ALIASES
 
 alias v="nvim"
+alias open="xdg-open"
 
 alias cesium="xrandr --output HDMI1 --auto --above eDP1"
 alias cesioff="xrandr --output HDMI1 --off"
